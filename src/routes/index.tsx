@@ -167,7 +167,7 @@ function Index() {
       )}
 
       {opened && (
-        <main className="relative animate-fade-in">
+        <main className="relative">
           {/* ---------- Section 1 ---------- */}
           <section className="relative flex min-h-[92vh] items-center justify-center overflow-hidden px-6 py-24">
             <img
