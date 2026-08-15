@@ -263,10 +263,10 @@ function Index() {
                   </div>
                   <div className="min-w-0">
                     <p className="truncate font-display text-2xl text-white">
-                      {SONGS[nowPlaying].title}
+                      {SONGS[nowPlaying]?.title}
                     </p>
                     <p className="truncate text-xs uppercase tracking-[0.2em] text-white/55">
-                      {SONGS[nowPlaying].artist}
+                      {SONGS[nowPlaying]?.artist}
                     </p>
                   </div>
                 </div>
